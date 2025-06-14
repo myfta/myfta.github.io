@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+&lt;h1&gt;Heading text&lt;/h1&gt;
+&lt;h2&gt;Subtitle&lt;/h2&gt;
+&lt;p&gt;Body text. There follows a footnote. Then there is the next sentence&lt;a class="footnote-anchor" data-component-name="FootnoteAnchorToDOM" id="footnote-anchor-1" href="#footnote-1" target="_self"&gt;1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There might be another sentence it too with a footnote&lt;a class="footnote-anchor" data-component-name="FootnoteAnchorToDOM" id="footnote-anchor-2" href="#footnote-2" target="_self"&gt;2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;End of post.&lt;/p&gt;
+&lt;div&gt;
+    &lt;hr/&gt;
+        &lt;div class="footnote" data-component-name="FootnoteToDOM"&gt;
+        &lt;a id="footnote-1" href="#footnote-anchor-1" class="footnote-number" contenteditable="false" target="_self"&gt;1&lt;/a&gt;
+        &lt;div class="footnote-content"&gt;
+            &lt;p&gt;First Footnote.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="footnote" data-component-name="FootnoteToDOM"&gt;
+        &lt;a id="footnote-2" href="#footnote-anchor-2" class="footnote-number" contenteditable="false" target="_self"&gt;2&lt;/a&gt;
+        &lt;div class="footnote-content"&gt;
+            &lt;p&gt;Second Footnote&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</root>
